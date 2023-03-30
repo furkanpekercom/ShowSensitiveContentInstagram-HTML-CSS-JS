@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("img/backgorund-instagram-2.png");
+    
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    display: flex;
+}
+ 
+.column-1{
+    width: 800px;
+    height: 800px;
+    background-color: #333333;
+}
+
+.column-2{
+    width: 500px;
+    height: 800px;
+    background-color: #000;
+}
+
+.ust-bolum{
+    display: flex;
+    height: 44px;
+    padding: 10px 10px;
+    border-bottom: 1px solid #d2d2d270;
+}
+
+.ust-sag{
+    margin-left: 8px;
+   
+}
+
+.ust-sag h2{
+    font-size: 13px;
+    margin: 0;
+    margin-top: 2px;
+    color: #fff;
+}
+
+.ust-sag p{
+    font-size: 12px;
+    margin: 0;
+    margin-top: 6px;
+    color: #fff;
+}
+
+.icerigi-gor{
+    width: 800px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.icerigi-gor .btn{
+    padding: 7px 18px;
+    border: none;
+    border-radius: 1px;
+    font-family: inherit;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+
+.column-1 .icerik-gorsel{
+    visibility: hidden;
+    height: 800px;
+    width: 800px;
+    position: absolute;
+   
+}
+
+.column-2 .profil-gorsel{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
